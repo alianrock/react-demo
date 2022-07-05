@@ -88,10 +88,10 @@ function App() {
       <section className='recommend'>
         <div className='subheader-header'>
           <h2 className='subheader-header-title'>青睐之光</h2>
-          <a className='subheader-header-right' href='https://www.baidu.com'>
+          <div className='subheader-header-right' >
             今日
             <i className='iconfont icon-jinrujiantouxiao'></i>
-          </a>
+          </div>
         </div>
         <div className='recommend-list'>
           {recommendListItems}
@@ -101,10 +101,10 @@ function App() {
       <section className='rank'>
         <div className='subheader-header'>
           <h2 className='subheader-header-title'>热力排行</h2>
-          <a className='subheader-header-right' href='https://www.baidu.com'>
+          <div className='subheader-header-right'>
             今日
             <i className='iconfont icon-jinrujiantouxiao'></i>
-          </a>
+          </div>
         </div>
 
         <div className='rank-list'>
