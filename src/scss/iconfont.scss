@@ -1,0 +1,28 @@
+/*每个页面公共css */
+@font-face {
+  font-family: 'iconfont';
+  font-weight: 400;
+  font-style: normal;
+  src: url(../assets/iconfont.8bad458d.ttf) format("truetype");
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jinrujiantouxiao:before {
+  content: "\e8d4";
+}
+
+.icon-heart-fill:before {
+  content: "\e849";
+}
+
+.icon-verified:before {
+    content: "\e9b9";
+}
